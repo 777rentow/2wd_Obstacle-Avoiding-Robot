@@ -1,3 +1,9 @@
+/*
+  2Wd Obstacle Avoiding Robot using ArduinoSketch v1.
+  by http://www.thingerbits.com
+*/
+
+
 #include <AFMotor.h> 
 #include <Servo.h>    
 #include <NewPing.h>
