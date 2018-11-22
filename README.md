@@ -25,6 +25,12 @@ Hardware Required
 - 2Wd Robot Chassis Kit
 - Power Supply Battary
 
+![alt text](https://i.imgur.com/CYtZn04.jpg)
+
+Note: Make sure you get a range of different colours for the wires (eg. red for voltage, black for ground, etc.). Some items such as the battery enclosure, motors and servo motor may come with wires so you may not need to purchase these separately. Some motor modules or sensor shields may use different pins (eg. male or female or just bare-ended wires).
+
+Below are images of the main components you need (apart from the wiring and batteries) – the different robot parts, shields, modules and sensors.
+
 # Step 2: Assembling the Chassis
 
 The first thing to do is to assemble all the car chassis parts and attach the motors to the wheels. This is explained in detail in the video below.
