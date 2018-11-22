@@ -11,7 +11,7 @@ Hardware Required
 - Motor Driver IC – L293D 
 - Servo Motor (Tower Pro SG90)
 - 2Wd Robot Chassis
-- Power Supply 
+- Power Supply Battary
 
 Steps
 
