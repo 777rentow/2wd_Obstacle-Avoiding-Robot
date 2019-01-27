@@ -8,15 +8,15 @@
 #include <Servo.h>    
 #include <NewPing.h>
 
-#define TRIG_PIN A4 
-#define ECHO_PIN A5
-#define MAX_DISTANCE_POSSIBLE 1000 
+#define TRIG_PIN A4 // Arduino pin tied to trigger pin on the ultrasonic sensor.
+#define ECHO_PIN A5 // Arduino pin tied to echo pin on the ultrasonic sensor.
+#define MAX_DISTANCE_POSSIBLE 600 //// Maximum distance we want to ping for (in centimeters). Maximum sensor distance is rated at 400-500cm.
 #define MAX_SPEED 150 // 
 #define MOTORS_CALIBRATION_OFFSET 3
 #define COLL_DIST 20 
 #define TURN_DIST COLL_DIST+10 
 
-NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE_POSSIBLE);
+NewPing sonar(TRIG_PIN, ECHO_PIN, MAX_DISTANCE_POSSIBLE); // NewPing setup of pins and maximum distance.
 
 AF_DCMotor leftMotor(4, MOTOR12_8KHZ); 
 AF_DCMotor rightMotor(3, MOTOR12_8KHZ); 
